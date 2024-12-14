@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+header button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero {
+    position: relative;
+    background-image: url('https://kennedytireauto.com/wp-content/uploads/2023/11/BMW.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+}
+
+.search-bar select, .search-bar button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.search-bar button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.brands, .vehicles {
+    padding: 50px;
+    text-align: center;
+}
+
+.brands .brand-list, .vehicles .vehicle-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.brand-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.brand-item p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.vehicle-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 250px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.vehicle-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.vehicle-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.vehicle-card .price {
+    font-size: 16px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
